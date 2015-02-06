@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p4changes", "p4changes\p4changes.csproj", "{25381A21-499C-48D5-9420-A19B0EAA851E}"
+	GlobalSection(PerforceSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p4batchCreateClients", "p4batchCreateClients\p4batchCreateClients.csproj", "{BEFEAC15-619F-4EE0-BBCA-AD8528E780DF}"
+	GlobalSection(PerforceSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p4setClient-cmd", "p4setClient-cmd\p4setClient-cmd.csproj", "{DFDD875E-71AA-4327-8C7E-B54EBD66E555}"
+	GlobalSection(PerforceSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+	EndGlobalSection
+EndProject
+Global
+	GlobalSection(PerforceSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25381A21-499C-48D5-9420-A19B0EAA851E}.Debug|x86.ActiveCfg = Debug|x86
+		{25381A21-499C-48D5-9420-A19B0EAA851E}.Debug|x86.Build.0 = Debug|x86
+		{25381A21-499C-48D5-9420-A19B0EAA851E}.Release|x86.ActiveCfg = Release|x86
+		{25381A21-499C-48D5-9420-A19B0EAA851E}.Release|x86.Build.0 = Release|x86
+		{BEFEAC15-619F-4EE0-BBCA-AD8528E780DF}.Debug|x86.ActiveCfg = Debug|x86
+		{BEFEAC15-619F-4EE0-BBCA-AD8528E780DF}.Debug|x86.Build.0 = Debug|x86
+		{BEFEAC15-619F-4EE0-BBCA-AD8528E780DF}.Release|x86.ActiveCfg = Release|x86
+		{BEFEAC15-619F-4EE0-BBCA-AD8528E780DF}.Release|x86.Build.0 = Release|x86
+		{DFDD875E-71AA-4327-8C7E-B54EBD66E555}.Debug|x86.ActiveCfg = Debug|x86
+		{DFDD875E-71AA-4327-8C7E-B54EBD66E555}.Debug|x86.Build.0 = Debug|x86
+		{DFDD875E-71AA-4327-8C7E-B54EBD66E555}.Release|x86.ActiveCfg = Release|x86
+		{DFDD875E-71AA-4327-8C7E-B54EBD66E555}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
