@@ -1,0 +1,78 @@
+v1.8.0.0	-- 2013.04.03
+	- This version is now fixed on the .NET Framework 4.0
+
+v1.7.2.1	-- 2013.03.29
+	- Crypto API is now static
+
+v1.7.2.0	-- 2013.03.29
+	- Rewrite of the crypto API
+
+v1.7.1.0	-- 2013.03.25
+	- Added in-memory encryption/decryption (needs refining)
+
+v1.7.0.0	-- 2013.01.03
+	- Added an Encryption + Isolated Storage API
+
+v1.6.4.1	-- 2012.09.23
+	- Moved some strings in Resources (Time.cs)
+
+v1.6.4		-- 2012.01.19
+	- Various improvements to FileInformation
+v1.6.3		-- 2011.12.27
+	- various corrections on Time Class
+	Code now frozen for Time Class
+	Null-ref dans SysUtils.Files.FileInformation()
+
+v1.6.2		-- 2011.12.23
+	- Better exception handling for Time Class
+
+v1.6.1		-- 2011.12.23
+	- New constructors for SysUtils.Time
+
+v1.6.0		-- 2011.12.22
+	- Added time-related helpers
+
+v1.5.0		-- 2011.09.27
+	- Added String helpers : Reverse, Right, Left
+
+v1.4.0		-- 2011.09.13
+	- Added fi (FileInformation)
+
+v1.3.6		-- 2011.09.13
+	- Added exception handling to DNS f(x)
+
+v1.3.5		-- 2011.09.11
+	- Rewrite of FindFile()
+
+v1.3.1		-- 2011.09.05
+	- Changed FindFile() : instead of using .GetFiles(arg1,SearchAllDirs) --> or something like that,
+	I'll be using a pure recursive f(x)
+
+v1.3.0		-- 2011.08.28
+	- Added FindFile()
+
+v1.2.3		-- 2011.07.28
+	- Added sysutils (ulong)
+
+v1.2.2		-- 2011.07.28
+	- Removed OS version : Environment.OSVersion.ToString() already provides the info
+
+v1.2.1		-- 2011.07.27
+	- finalized diskfree (now called diskInformation)
+
+v1.2.0		-- 2011.07.18
+	- added diskfree
+	- added OS version
+	- added lowerDir, upperDir
+
+v1.1.3		-- 2011.06.29
+	- multiple fields selection for awk()
+
+
+v1.1.2		-- 2011.06.28
+	- removed no-input-file version of awk
+	- added ^pattern and pattern$ to grep (all versions)
+
+
+v1.0.0		-- june 2011
+	- initial version
