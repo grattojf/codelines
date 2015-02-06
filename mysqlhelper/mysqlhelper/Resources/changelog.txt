@@ -1,0 +1,31 @@
+2015.01.07 == v2.1.1
+	Added linux/monodevelop compatibility (.pc file)
+	
+2014.11.17 == v2.1.0
+	Changed some return types to be consistent:
+	Some methods now return bool? and set _mExceptionString properly on failure
+
+2014.11.15 == v2.0.1
+	Added support for XML API documentation
+
+2014.09.18	== v2.0.0
+	Added some logic to prevent SQL injections
+
+2013.06.30	== v1.2.1
+	Added exception handling on OpenConnection()
+	Removed the constructor which called OpenConnection() as exception handling wouldn't be working
+
+2013.06.23	== v1.2.0
+	Added new API call : ResetAutoIncrement()
+
+2013.06.23	== v1.1.0
+	Hardened all methods with SELECT();
+
+2013.06.23	== v1.1.0
+	Added new methods to emulate SHOW TABLES;
+
+2013.06.18	== v1.0.1
+	Corrected a small typo in CreateTable()
+
+2013.05.25	== v1.0.0
+	Version initiale

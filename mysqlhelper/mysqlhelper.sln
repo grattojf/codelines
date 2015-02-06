@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "show_tables", "show_tables\show_tables.csproj", "{5BB42505-83EA-4AC9-ABF8-9E811696AC5E}"
+	GlobalSection(PerforceSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reindex", "reindex\reindex.csproj", "{ACDDCE18-1786-4E1C-AAAD-F02D44014967}"
+	GlobalSection(PerforceSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mysqlhelper", "mysqlhelper\mysqlhelper.csproj", "{8F655FA2-029E-4746-A8C7-C85D1BCE5254}"
+	GlobalSection(PerforceSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testunit", "testunit\testunit.csproj", "{7163641D-0E0F-4FF6-B13C-F07AAF1027CE}"
+	GlobalSection(PerforceSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+	EndGlobalSection
+EndProject
+Global
+	GlobalSection(PerforceSourceControlProviderSolutionProperties) = preSolution
+		SolutionIsControlled = True
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BB42505-83EA-4AC9-ABF8-9E811696AC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB42505-83EA-4AC9-ABF8-9E811696AC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB42505-83EA-4AC9-ABF8-9E811696AC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB42505-83EA-4AC9-ABF8-9E811696AC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDDCE18-1786-4E1C-AAAD-F02D44014967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDDCE18-1786-4E1C-AAAD-F02D44014967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDDCE18-1786-4E1C-AAAD-F02D44014967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDDCE18-1786-4E1C-AAAD-F02D44014967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F655FA2-029E-4746-A8C7-C85D1BCE5254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F655FA2-029E-4746-A8C7-C85D1BCE5254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F655FA2-029E-4746-A8C7-C85D1BCE5254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F655FA2-029E-4746-A8C7-C85D1BCE5254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7163641D-0E0F-4FF6-B13C-F07AAF1027CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7163641D-0E0F-4FF6-B13C-F07AAF1027CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7163641D-0E0F-4FF6-B13C-F07AAF1027CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7163641D-0E0F-4FF6-B13C-F07AAF1027CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

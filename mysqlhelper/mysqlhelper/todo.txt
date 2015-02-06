@@ -1,0 +1,27 @@
+﻿show create table:
+{
+    SqlConnection mySqlConnection =new SqlConnection("server=(local)\\SQLEXPRESS;database=MyDatabase;Integrated Security=SSPI;");
+
+    SqlCommand mySqlCommand = mySqlConnection.CreateCommand();
+    mySqlCommand.CommandText ="SELECT ID, FirstName, LastName FROM Employee WHERE ID = 8";
+
+    mySqlConnection.Open();
+
+    SqlDataReader productsSqlDataReader =mySqlCommand.ExecuteReader(CommandBehavior.SchemaOnly);
+    DataTable myDataTable = productsSqlDataReader.GetSchemaTable();
+
+    foreach (DataRow myDataRow in myDataTable.Rows)
+    {
+        Console.WriteLine("\nNew column details follow:");
+        foreach (DataColumn myDataColumn in myDataTable.Columns)
+        {
+            Console.WriteLine(myDataColumn + "= " +
+            myDataRow[myDataColumn]);
+            if (myDataColumn.ToString() == "ProviderType")
+            {
+                Console.WriteLine(myDataColumn + "= " +
+                ((System.Data.SqlDbType) myDataRow[myDataColumn]));
+            }
+        }
+    }
+}
